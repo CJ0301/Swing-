@@ -1,3 +1,7 @@
+create database rcs;
+
+use rcs;
+
 CREATE TABLE `t_carlist` (
 `cid`  int(11) NOT NULL AUTO_INCREMENT ,
 `cname`  varchar(50) NOT NULL ,
@@ -5,7 +9,7 @@ CREATE TABLE `t_carlist` (
 `price`  float(6,1) NOT NULL ,
 `cimage`  varchar(100) NULL ,
 `insure`  float(6,1) NOT NULL ,
-`desp`  varchar(200) NULL DEFAULT '（这个用户很懒没有评价）' ,
+`desp`  varchar(200) NULL DEFAULT '锛堣繖涓敤鎴峰緢鎳掓病鏈夎瘎浠凤級' ,
 PRIMARY KEY (`cid`)
 )
 ENGINE=InnoDB
